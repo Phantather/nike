@@ -115,3 +115,38 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .greatest__block::after {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .greatest__row {
+    flex-direction: column-reverse;
+    row-gap: 20px;
+  }
+  .greatest__pagination {
+    width: 100%;
+  }
+  .greatest__block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .greatest__info {
+    width: 100%;
+    padding: 66px 70px 73px 70px;
+  }
+  .greatest__user {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .greatest__user-img {
+    width: 100px!important;
+    height: 100px!important;
+  }
+}
+

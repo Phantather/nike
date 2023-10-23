@@ -25,6 +25,12 @@ var swiper3 = new Swiper(".mySwiper3", {
     },
     mousewheel: true,
     keyboard: true,
+    // breakpoints: {
+    //     425: {
+    //         slidesPerView: 1,
+    //         spaceBetween: 60
+    //     }
+    // }
 });
 
 let btn = document.querySelector('.header__btn')
